@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="wish_list">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Your Anonymous Name"
+        android:textSize="20dp"
+        android:textColor="@android:color/black"
+        android:id="@+id/editl"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="your expectations"
+        android:layout_below="@id/editl"
+        android:textSize="20dp"
+        android:textColor="@android:color/black"
+        android:id="@+id/edit2"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send Expectations"
+        android:layout_centerInParent="true"
+        android:id="@+id/button"
+        android:textSize="20dp"
+        />
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+package com.example.hp.medal;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.os.Bundle;
+
+public class MainActivity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        final EditText edit1=(EditText)findViewById(R.id.edit1);
+        final EditText edit1=(EditText)findViewById(R.id.edit2);
+        Button btn=(Button)findViewById(R.id.button);
+        btn.setOnClickListener(new View.OnClickListener()   )
+                @Override
+             public void onClick(View v){
+            Intent i=new Intent(Intent.ACTION_SEND);
+            i.setType("message/html");
+            i.putExtra(I
+                    ntent.EXTRA_EMAIL,new String(original"xyz@gmail.com"));
+            i.putExtra(Intent.EXTRA_SUBJECT,value"Feedback  From App");
+            i.putExtra(Intent.EXTRA_TEXT,value"Name:"+editl.getText()+"\n Message:"+edit2.getText()):
+            try{
+                starActivity(Intent.createChooser(i,title:"Please select Email"));
+            }
+            catch (android.content..ActivityNotFoundException ex)
+            {
+                Toast.makeText( contextMainActivity.this, text"There are no email Clients",Toast.LENGTH_s)
+            }
+            final EditText edit1=(EditText) edit1=(EditText)findViewById(R.Id.edit1);
+            final EditText edit2=(EditText)findViewById(R.id.button);
+            btn.setOnClickListener(new View.OnClickListener ( )    {
+                @Override
+                public void onClick(View v)  {
+
+                    Intent i=new Intent(Intent.ACTION_SEND);
+                    i.setType("message/html");
+                    i.putExtra(Intent.EXTRA_EMAIL,new String(original:"xyz@gmail.com"));
+                    i.putExtra(Intent.EXTRA_SUBJECT,value:"Feedback From App");
+                    i.putExtra(Intent.EXTRA_TEXT,value:"Name:+edit.getText()+"\nMessage:"edit2.getText());
+                            try{
+                                starActivity(Intent.createChoose(i,title:"please select Email"));
+                            }
+                            catch (android.content.ActivityNotFoundException ex)
+                            {
+                                Toast.makeText(context:MainActivity.this,  text"there are so Email Clients",Toast.LENGTH_s)
+                            }
+                }
+
+            }
+        })
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
