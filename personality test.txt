@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="utf-8"?>
+   <linearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingbottom="16dp"
+    android:paddingleft="16dp"
+    android:paddingright="16dp"
+    android:paddingtop="16dp"
+    android:orientation="vertical"
+    tools:context="com.skooltchdev.personalityquiz.mainactivity">
+
+
+
+<RelativeLayout
+      android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    android:layout_marginBottom="40dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="quiz"
+        android:textsize="20sp"
+        android:layout_alignparentleft="true"
+        android:id="@+id/quiz_text"/>
+
+<TextVeiw
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/quiz"
+    android:layout_alignparentright="true"
+    android:text="0"
+    android:textsize="20sp"/>
+</RelativeLayout>
+
+<textveiw
+android:layout_width="match_parent"
+android:layout_height="78dp"
+android:text=" You often think about what you should have said in aconversation long after it has taken place "
+    android:textsize="20sp"
+    android:padding="8dp"
+    android:layout_marginbottom="40dp"
+    android:id-="@+id/question"/>
+
+<Button
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text=" YES "
+android:background="0091EA"
+android:textcolour="#fff"
+android:padding="8dp"
+android:layout_marginbottom="24dp"
+android:id="@+id/choice1"/>
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text=" NO "
+    android:background="0091EA"
+    android:textcolour="#fff"
+    android:padding="8dp"
+    android:layout_marginbottom="24dp"
+    android:id="@+id/choice2"/>
+</LinearLayout>
+
+
+</RelativeLayout>
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:text="People can rarely influence your feelings and you really worry if you made a good impression on someone you met  "
+    android:textsize="20sp"
+    android:padding="8dp"
+    android:id-="@+id/question"/>
+
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text=" AGREE "
+    android:background="0092EA"
+    android:textcolour="#fff"
+    android:padding="8dp"
+    android:layout_marginbottom="24dp"
+    android:id="@+id/choice1"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" DISAGREE"
+        android:background="#0092EA"
+        android:textcolour="#fff"
+        android:padding="8dp"
+        android:layout_marginbottom="24dp"
+        android:id="@+id/choice2"/>
+    </LinearLayout>
+
+
+    </RelativelLayout>
+
+    <textVeiw
+        android:layout_width="match_parent"
+        android:layout_height="78dp"
+        android:text="  you often rely on other people to be the one to start a conversation and keep it going          "
+        android:textsize="20sp"
+        android:padding="8dp"
+        android:layout_marginbottom="40dp"
+        android:id-="@+id/question"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" YES "
+        android:background="0093EA"
+        android:textcolour="#fff"
+        android:padding="8dp"
+        android:layout_marginbottom="24dp"
+        android:id="@+id/choice1"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" NO "
+            android:background="0093EA"
+            android:textcolour="#fff"
+            android:padding="8dp"
+            android:layout_marginbottom="24dp"
+            android:id="@+id/choice2"/>
+        </LinearLayout>
+
+    </relativelayout>
+
+    <textveiw
+        android:layout_width="match_parent"
+        android:layout_height="78dp"
+        android:text="  you like out new stuff , making new freinds and exploring new ventures "
+        android:textsize="20sp"
+        android:padding="8dp"
+        android:layout_marginbottom="40dp"
+        android:id-="@+id/question"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" YES "
+        android:background="0094EA"
+        android:textcolour="#fff"
+        android:padding="8dp"
+        android:layout_marginbottom="24dp"
+        android:id="@+id/choice1"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" NO "
+            android:background="0094EA"
+            android:textcolour="#fff"
+            android:padding="8dp"
+            android:layout_marginbottom="24dp"
+            android:id="@+id/choice2/">
+        </LinearLayout>
+
+    </relativelayout>
+
+    <textveiw
+        android:layout_width="match_parent"
+        android:layout_height="78dp"
+        android:text="  If your freind is in a problem what would be your first reaction. "
+        android:textsize="20sp"
+        android:padding="8dp"
+        android:layout_marginbottom="40dp"
+        android:id-="@+id/question"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" solving his/her problem "
+        android:background="#0095EA"
+        android:textcolour="#fff"
+        android:padding="8dp"
+        android:layout_marginbottom="24dp"
+        android:id="@+id/choice1/">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" supporting him emotionally "
+            android:background="0095EA"
+            android:textcolour="#fff"
+            android:padding="8dp"
+            android:layout_marginbottom="24dp"
+            android:id="@+id/choice2"/>
+        </LinearLayout>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="58dp"
+        android:ids"@+id/textView1”/>
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+package com.skooltchdev.personalityquiz.mainactivity;
+
+public class questionarylibrary {
+    "  You often think about what you should have said in a conversation long after it has taken place   "
+    "  People can rarely influence your feelings and you really worry if you made a good impression on someone you met   "
+    "   you often rely on other people to be the one to start a conversation and keep it going    "
+    "    you like out new stuff , making new friends and exploring new ventures  "
+    "     If your friend is in a problem what would be your first reaction.  "
+};
+
+
+
+   private String mCHOICES []  []  ={
+
+    {" yes  "," no  "},
+    {  " agree  ","disagree    "},
+    {  " yes  "," no  "},
+    {  " yes "," no  "},
+    {" solving his/her problem  "," supporting him emotionally  "}
+};
+
+
+
+
+@Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+    }
+}
+
+    Button b1;
+    Button b2;
+    Button b3;
+    Button b4;
+    Button b5;
+    Button b6;
+    Button b7;
+    Button b8;
+    Button b9;
+    Button b10;
+    EditText et1;
+    String S1;
+    String S2;
+    String S3;
+    String S4;
+    String S5;
+    String S6;
+    String S7;
+    String S8;
+    String S9;
+    String S10;
+    @Override
+public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.main);
+        b1 = (Button) findViewById(R.id.Button1);
+        b2 = (Button) findViewById(R.id.Button2);
+        b3 = (Button) findViewById(R.id.Button3);
+
+        b4 = (Button) findViewById(R.id.Button4);
+        b5 = (Button) findViewById(R.id.Button5);
+        b6 = (Button) findViewById(R.id.Button6);
+        b7 = (Button) findViewById(R.id.Button7);
+        b8 = (Button) findViewById(R.id.Button8);
+        b9 = (Button) findViewById(R.id.Button9);
+        b10 = (Button) findViewById(R.id.Button10);
+        et1 = (EditText) findViewById(R.id.editText1);
+
+        b1.setOnClickListener(this);
+        b2.setOnClickListener(this);
+        b3.setOnClickListener(this);
+        b4.setOnClickListener(this);
+        b5.setOnClickListener(this);
+        b6.setOnClickListener(this);
+        b7.setOnClickListener(this);
+        b8.setOnClickListener(this);
+        b9.setOnClickListener(this);
+        b10.setOnClickListener(this);
+    }
+
+    public void onClick(View v) {
+        if (v == b1) {
+            S1="clearminded";
+        }
+        else {
+            S1 = " ";
+        }
+           
+            if (v == b2) {
+            S1="pensive";
+        }
+            else {
+                S2 = " ";
+            }
+        if (v == b3) {
+            S1="self-reliant";
+        }
+        else {
+            S3= " ";
+        }
+        if (v == b4) {
+            S1="understanding";
+        }
+        else {
+            S4= " ";
+        }
+        if (v == b5) {
+            S1="reserved and shy";
+        }
+        else {
+            S5 = " ";
+        }
+        if (v == b6) {
+            S1="outgoing";
+        }
+        else {
+            S6 = " ";
+        }
+        if (v == b7) {
+            S7 = "adventurous";
+        }
+        else {
+            S7 = " ";
+        }
+        if (v == b8) {
+            S8="cautious";
+        }
+        else {
+            S8 = " ";
+        }
+        if (v == b9) {
+            S9="practical";
+        }
+        else {
+            S9 = " ";
+        }
+        if (v == b10) {
+            S10="emotional";
+        }
+        else {
+            S10 = " ";
+        }
+ @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+    
+
+TextView theTextView = (TextView)findViewById(R.id.textView1);
+theTextView.setText("The personality traits are +S1+ ","+S2+","+S3+","+S4+","+S5+","+S6+","+S7+","+S8+","+S9+","+S10)
+String stringFromTextView= theTextView.getText().toString();
+System.out.println(stringFromTextView);
+Log.d(TAG,"onCreate:"+ stringFromTextView);
+}
+}
+
+
+
+    }
+}
+
+ 
+
+
+
